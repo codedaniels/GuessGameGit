@@ -523,3 +523,9 @@ body{
         transform: perspective(400px);
     }
 }
+
+/* added some CSS too by Daniel */
+.jumbotron {
+    text-align: center;
+    font-size: 4rem;
+}
