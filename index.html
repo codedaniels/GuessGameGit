@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+    <title>Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
 </head>
-<body>
+<body  class="background">
+<div class="center hide">
+    <div class="clock">35
+    </div>
+
+    <div class="start"><input class="guess_input" type="text" autofocus></div>
+    <div class="responsive_div">Press Enter</div>
+</div>
+<div class="bricks">
+    <div class="div-shock">
+        <div class="left-shock shock shock-left ">
+            <div class=" inner-shock "></div>
+        </div>
+
+    </div>
+</div>
+
+<div class="wall-left">
+
+</div>
+<div class="wall-right"></div>
+<div class="floor">
+    <div class="walkDude walkLeftDude" ></div>
+</div>
+
+
+<div  class="modal">
+
+
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modalFlex"><div class="modal_text">Ohh no im trapped ,Guess the right number between 1-100 before time runs out!</div></div>
+    </div>
+
+</div>
+<script src="main.js"></script>
 
 </body>
 </html>
