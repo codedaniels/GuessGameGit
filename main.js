@@ -1,9 +1,11 @@
 var GlobalVariable = new StartingVariable(false, null);
 $(document).ready(GlobalVariable.pick_number());
 
-function StartingVariable(correct, the_number) {
+// changed the hotdog the_number to the_numberZ b/c things are 
+// better w/ the z at the end
+function StartingVariable(correct, the_numberZ) {
   this.correct = correct;
-  this.the_number = the_number;
+  this.the_number = the_numberZ;
 
   this.pick_number = function() {
     var random_number = Math.ceil(Math.random() * 100);
